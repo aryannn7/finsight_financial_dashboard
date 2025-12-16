@@ -5,8 +5,10 @@ import pandas as pd
 st.set_page_config(page_title="FinSight: Financial Transactions Dashboard", layout="wide")
 
 # Load data
-df = pd.read_csv("data/cleaned.csv")
-anomalies = pd.read_csv("data/anomalies.csv")
+df = pd.read_csv("data/sample.csv")
+anomalies = df[df['is_fraud'] == 1]  # Assuming 'is_fraud' column exists in sample
+
+# anomalies = pd.read_csv("data/anomalies.csv")
 
 st.title("FinSight: Financial Analytics & Fraud Detection")
 st.caption("Built with Python, Streamlit, Pandas, and Scikit-learn | Dataset: Kaggle Credit Transactions")
