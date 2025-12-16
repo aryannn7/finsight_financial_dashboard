@@ -1,6 +1,7 @@
 # FinSight: Financial Transactions Dashboard & Fraud Detection
 
-[![Streamlit App](https://finsightfinancialdashboard-ruv8mtesgfxtxudhetrqgh.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live--Demo-brightgreen?logo=streamlit)](https://finsightfinancialdashboard-ruv8mtesgfxtxudhetrqgh.streamlit.app/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Overview
