@@ -37,3 +37,32 @@ This is part of my effort to showcase real-world data engineering and machine le
 
 ## Folder Structure
 
+├── app/
+│ └── dashboard.py # Streamlit app
+├── data/
+│ └── sample.csv # Lightweight demo dataset
+├── scripts/
+│ ├── process_data.py # Cleans and loads dataset
+│ └── anomaly_model.py # Trains the fraud detection model
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+---
+
+## 📊 Live Demo
+
+👉 [Click here to use the app](https://finsightfinancialdashboard-ruv8mtesgfxtxudhetrqgh.streamlit.app/)
+
+---
+
+## 🔧 Setup Locally
+
+```bash
+git clone https://github.com/aryannn7/finsight_financial_dashboard.git
+cd finsight_financial_dashboard
+pip install -r requirements.txt
+streamlit run app/dashboard.py
+
+
+
